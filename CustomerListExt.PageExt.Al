@@ -17,10 +17,4 @@ page 50100 "Customer List Ext" extends "Customer List"
             end;
         }
     }
-
-    trigger OnOpenPage()
-    begin
-        // Custom logic when the page is opened
-        Message('Customer List Ext page opened.');
-    end;
 }
